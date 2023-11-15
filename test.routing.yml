@@ -1,0 +1,7 @@
+test.link:
+  path: '/link'
+  defaults:
+    _controller: '\Drupal\test\Controller\TestController::link'
+    _title: 'Working with links'
+  requirements:
+    _permission: 'access content'
